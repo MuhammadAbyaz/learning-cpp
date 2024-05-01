@@ -5,7 +5,6 @@ int main(){
     int number = 0;
     std::cout << "Enter a number: "<<std::endl;
     std::cin >> number;
-    if (number % 2 == 0) std::cout << "Its Even" << std::endl; 
-    else std::cout << "Its Odd";
+    std::cout << ((number% 2 == 0) ? "Its Even": "Its Odd") << std::endl;
     return 0;
 }

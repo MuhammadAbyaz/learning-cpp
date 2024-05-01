@@ -18,6 +18,6 @@ int main(){
         r--;
     }
     
-    std::cout<<str;
+    std::cout<<"Reversed String: " << str;
     return 0;
 }
