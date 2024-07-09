@@ -47,9 +47,14 @@ public:
         }
     }
 };
-
+void intro()
+{
+    cout << "Name: Muhammad Abyaz Khalid" << endl;
+    cout << "Roll Number: SE-23053" << endl;
+}
 int main()
 {
+    intro();
     Matrix m1(2, 3, {{1, 2, 3}, {4, 5, 6}});
     Matrix m2(3, 3, {{7, 8, 9}, {10, 11, 12}, {13, 14}});
     Matrix m3 = m1 * m2;

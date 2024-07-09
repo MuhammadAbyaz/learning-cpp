@@ -13,7 +13,7 @@ private:
 
 public:
     Date(int d, string m, int y) : day(d), month(monthMap[m]), year(y) {}
-    void getDate()
+    void getDetails()
     {
         cout << "Day: " << day << endl;
         cout << "Month: " << month << endl;
@@ -31,12 +31,17 @@ public:
     Book(string t, string a, int publicationYear, int publicationDay, string publicationMonth) : title(t), author(a), publicationDate(Date(publicationDay, publicationMonth, publicationYear)) {}
     void getPublicationDate()
     {
-        publicationDate.getDate();
+        publicationDate.getDetails();
     }
 };
-
+void intro()
+{
+    cout << "Name: Muhammad Abyaz Khalid" << endl;
+    cout << "Roll Number: SE-23053" << endl;
+}
 int main()
 {
+    intro();
     Book b("7 Habits", "Stephan R. Covey", 2018, 12, "Jan");
     b.getPublicationDate();
     return 0;

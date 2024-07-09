@@ -15,8 +15,14 @@ double calculatePerimeter(Rectangle r)
 {
     return 2 * (r.length + r.width);
 }
+void intro()
+{
+    cout << "Name: Muhammad Abyaz Khalid" << endl;
+    cout << "Roll Number: SE-23053" << endl;
+}
 int main()
 {
+    intro();
     Rectangle r(12, 12);
     cout << calculatePerimeter(r) << endl;
     return 0;

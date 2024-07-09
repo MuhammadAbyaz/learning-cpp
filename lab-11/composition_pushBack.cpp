@@ -36,8 +36,14 @@ public:
         }
     }
 };
+void intro()
+{
+    cout << "Name: Muhammad Abyaz Khalid" << endl;
+    cout << "Roll Number: SE-23053" << endl;
+}
 int main()
 {
+    intro();
     Playlist p;
     p.addSongs("idk", "idk", 25);
     p.addSongs("idk", "idk", 25);
