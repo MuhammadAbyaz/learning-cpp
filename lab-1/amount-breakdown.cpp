@@ -1,4 +1,5 @@
 #include<iostream>
+using namespace std;
 int main(){
     std::cout << "Name: Muhammad Abyaz Khalid" << std::endl;
     std::cout << "Roll Number: SE-23053" << std::endl;
